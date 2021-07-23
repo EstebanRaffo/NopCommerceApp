@@ -5,7 +5,7 @@ class AddCustomer:
     # Add customer Page
     lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
     lnkCustomers_menuitem_xpath = "//a[@href='/Admin/Customer/List']"
-    btnAddnew_xpath = "//a[@class='btn bg-blue']"
+    btnAddnew_xpath = "//a[@href='/Admin/Customer/Create']"
     txtEmail_xpath = "//input[@id='Email']"
     txtPassword_xpath = "//input[@id='Password']"
     txtcustomerRoles_xpath = "//div[@class='k-multiselect-wrap k-floatwrap']"
