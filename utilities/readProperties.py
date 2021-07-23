@@ -6,7 +6,7 @@ config.read(".\\Configurations\\config.ini")
 
 class ReadConfig():
     @staticmethod
-    def getAppicationURL():
+    def getApplicationURL():
         url = config.get('common info', 'baseURL')
         return url
 
